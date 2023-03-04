@@ -1,0 +1,191 @@
+.container {
+  display: flex;
+  height: 500px;
+  position: relative;
+}
+
+.image {
+  background-image: url('./img/portada.jpg');
+  background-size: cover;
+  flex: 1;
+  position: relative;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin-right: 50px;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+.iconos{
+
+display: flex;
+}
+
+.content {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  padding: 10px;
+  text-align:left
+}
+
+.contenedorheadder{
+  display: flex;
+  height: 81px;
+  align-items: center
+
+}
+.lupa{
+  position: relative;
+  margin-right: 20px;
+}
+
+.persona{
+  position: relative;
+  margin-right: 20px;
+}
+
+.mapa{
+  position: relative;
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.contenedormenucoches ul{
+  display: flex;
+}
+
+.select {
+  border-bottom: 1px solid blue;
+  color: black;
+  padding: 50px;
+}
+.menucoche{
+  border-bottom: 1px solid grey;
+  color: black;
+  padding: 50px;
+}
+
+.contenedormenucoches ul{
+  list-style: none;
+}
+
+.contenedormenucoches a {
+  color: rgb(163, 161, 161);
+  text-decoration: none;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.producto {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.producto__image {
+  max-width: 100%
+  object-fit 100%
+}
+
+.producto__text{
+  text-align: left;
+}
+
+.producto__opcion{
+  text-align: left;
+}
+
+.productos2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.producto2 {
+width: 300px;
+height: auto;
+padding: 20px;
+margin: 20px;
+margin-bottom: 30px;
+}
+
+.productos3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.producto3 {
+width: auto;
+height: auto;
+padding: 30px;
+margin: 20px;
+margin-bottom: 30px;
+}
+
+.productos4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.producto4 {
+background-color: grey;
+width: 300px;
+height: auto;
+padding: 20px;
+margin: 20px;
+margin-bottom: 30px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contenedorfooter {
+  background-color: grey;
+}
+
+.productosfooter {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.productofooter {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-top: 1px solid black;
+    
+}
+
+.productofooter li {
+  list-style: none;
+}
